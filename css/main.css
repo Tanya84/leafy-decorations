@@ -9,9 +9,6 @@ html {
   border-top: 3px solid #2d5a4d;
   border-bottom: 3px solid #2d5a4d;
   background-size: 64px auto;
-
-
-
 }
 
 .logo {
@@ -38,17 +35,24 @@ html {
   background-repeat: repeat-y;
   background-position: .75em;
   color: #467366;
-
-
-
-
 }
 
 .banner {
+  background-image: linear-gradient(rgba(16, 52, 41, 0), rgba(16, 52, 41, 0), rgba(16, 52, 41, .8)), url("../images/banner.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  border-bottom: 3px solid #145b1d;
 
 }
 
 .banner-content {
+  color: #fff;
+  padding-top: 300px;
+  background-image: url("../images/two-leaves.svg");
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: 100px auto;
+
 
 }
 
