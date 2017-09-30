@@ -8,6 +8,8 @@ html {
   background-color: #588477;
   border-top: 3px solid #2d5a4d;
   border-bottom: 3px solid #2d5a4d;
+  background-size: 64px auto;
+
 
 
 }
@@ -30,6 +32,15 @@ html {
 }
 
 .nav a:hover {
+  background-color: #fff;
+  background-size: 64px auto;
+  background-image: url("../images/leaf-icon.svg");
+  background-repeat: repeat-y;
+  background-position: .75em;
+  color: #467366;
+
+
+
 
 }
 
